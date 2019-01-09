@@ -5,3 +5,5 @@ v.1
 #adding a new line to see if git webhooks work
 #Test1 to deploy inventory management to S3 bucket
 
+#change2
+#to check how txt files store in s3
