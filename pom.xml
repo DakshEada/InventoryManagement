@@ -6,6 +6,19 @@
   <name>Inventory Management</name>
   <description>Demo project of Inventory Management</description>
   
+  <distributionManagement>
+    <repository>
+        <id>aws-release</id>
+        <name>AWS S3 Release Repository</name>
+        <url>s3://wbinglee-so-s3/release</url>
+    </repository>
+    <snapshotRepository>
+        <id>aws-snapshot</id>
+        <name>AWS S3 Snapshot Repository</name>
+        <url>s3://wbinglee-so-s3/snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <build>
     <extensions>
         <extension>
