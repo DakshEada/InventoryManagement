@@ -5,4 +5,15 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Inventory Management</name>
   <description>Demo project of Inventory Management</description>
+  
+  <build>
+    <extensions>
+        <extension>
+            <groupId>com.gkatzioura.maven.cloud</groupId>
+            <artifactId>s3-storage-wagon</artifactId>
+            <version>1.0</version>
+        </extension>
+    </extensions>
+</build>
+  
 </project>
